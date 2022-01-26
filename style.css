@@ -808,6 +808,9 @@ ul li ul.dropdown::before {
     min-width: 70%;
     margin: 0;
   }
+  .team-work-fillter {
+    max-height: 100vh;
+  }
   .team-work {
     display: flex;
     justify-content: center;
