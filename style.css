@@ -1213,12 +1213,12 @@ button.active {
     margin-left: 0;
   }
 }
-@media screen and (min-width: 650px) and (max-width: 900px) {
+@media screen and (min-width: 801px) and (max-width: 900px) {
   .testimonials-slider {
     max-width: 90vw;
   }
   .testimonials-card {
-    height: 50vh;
+    height: max-content;
   }
   .card-thumb {
     width: 80%;
@@ -1238,7 +1238,7 @@ button.active {
     left: 1rem;
   }
 }
-@media screen and (max-width: 649px) {
+@media screen and (max-width: 800px) {
   .testimonials-slider {
     max-width: 95vw;
   }
