@@ -805,12 +805,19 @@ ul li ul.dropdown::before {
 @media screen and (min-width: 700px) and (max-width: 1150px) {
   .team-work-container {
     min-width: 70%;
+    max-height: 70%;
     margin: 0;
   }
   .team-work {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .team-work-content h3 {
+    font-size: 2.5rem;
+  }
+  .team-work-content p {
+    font-size: 1.5rem;
   }
 }
 @media screen and (min-width: 500px) and (max-width: 699px) {
