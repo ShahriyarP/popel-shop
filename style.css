@@ -834,9 +834,13 @@ ul li ul.dropdown::before {
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 130vh;
   }
   .team-work-content h3 {
-    font-size: 3rem;
+    font-size: 2.3rem;
+  }
+  .team-work-content p {
+    font-size: 1.3rem;
   }
 }
 @media screen and (max-width: 499px) {
