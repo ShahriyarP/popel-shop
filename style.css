@@ -757,6 +757,7 @@ ul li ul.dropdown::before {
   height: 100vh;
   margin-top: 4rem;
   margin-bottom: 4rem;
+  background-repeat: no-repeat;
   background-image: url(https://images.unsplash.com/photo-1568992687947-868a62a9f521?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80);
 }
 .team-work-fillter {
@@ -805,7 +806,6 @@ ul li ul.dropdown::before {
 @media screen and (min-width: 700px) and (max-width: 1150px) {
   .team-work-container {
     min-width: 70%;
-    max-height: 70%;
     margin: 0;
   }
   .team-work {
@@ -818,6 +818,11 @@ ul li ul.dropdown::before {
   }
   .team-work-content p {
     font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 735px) and (max-width: 737px) {
+  .team-work {
+    min-height: 130vh;
   }
 }
 @media screen and (min-width: 500px) and (max-width: 699px) {
