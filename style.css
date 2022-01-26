@@ -824,6 +824,9 @@ ul li ul.dropdown::before {
   .team-work {
     min-height: 130vh;
   }
+  .team-work-fillter {
+    min-height: 130vh;
+  }
 }
 @media screen and (min-width: 500px) and (max-width: 699px) {
   .team-work-container {
@@ -834,6 +837,9 @@ ul li ul.dropdown::before {
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 130vh;
+  }
+  .team-work-fillter {
     min-height: 130vh;
   }
   .team-work-content h3 {
