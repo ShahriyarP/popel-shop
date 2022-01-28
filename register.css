@@ -57,9 +57,10 @@ ul li ul.dropdown::before {
   border-radius: 1.5rem;
   box-shadow: 3px 3px 11px 2px rgb(221 221 221 / 70%);
   width: 35vw;
-  height: 85%;
+  height: max-content;
   margin: 0 auto;
   margin-top: 3rem;
+  margin-bottom: 2rem;
 }
 .shape-fill-teal {
   fill: rgb(35, 226, 153);
