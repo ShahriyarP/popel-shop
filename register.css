@@ -1,0 +1,216 @@
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+
+:root {
+  --header-background: #05172a;
+  --header-text-color: #e6dbf4;
+  --sub-preview-content-p: #6c788a;
+  --purpol: rgb(81, 15, 168);
+  --plan-button-background: rgb(208, 217, 246);
+  --plan-terial-button-background: rgb(5, 23, 42);
+  --footer-card-background: #05172a;
+}
+
+.nav-head .nav-head-txt,
+.nav-bottom-list ul li {
+  color: var(--sub-preview-content-p);
+}
+.nav-bottom-list ul li:hover {
+  color: black;
+}
+.fab-logo i,
+.fab-logo span {
+  color: var(--header-background);
+}
+.nav-head .fas,
+.nav-head span {
+  color: var(--sub-preview-content-p) !important;
+}
+.badge-purchase {
+  background-color: rgb(228, 228, 228) !important;
+}
+ul li ul.dropdown,
+ul li ul.dropdown::before {
+  background-color: rgb(228, 228, 228) !important;
+}
+.nav-bottom-list {
+  background: white !important;
+}
+
+.shape {
+  position: absolute;
+  margin-top: 15rem;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background-repeat: no-repeat;
+}
+.form {
+  width: 100%;
+  height: 90%;
+  position: absolute;
+  z-index: 101;
+}
+.form-register {
+  background-color: white;
+  border-radius: 1.5rem;
+  box-shadow: 3px 3px 11px 2px rgb(221 221 221 / 70%);
+  width: 35vw;
+  height: 85%;
+  margin: 0 auto;
+  margin-top: 3rem;
+}
+.shape-fill-teal {
+  fill: rgb(35, 226, 153);
+}
+.shape-fill-orange {
+  fill: #ff9500;
+}
+.shape-fill-red {
+  fill: #ff3b30;
+}
+.shape-fill-purple {
+  fill: var(--purpol);
+}
+.shape-fill-gray-dark {
+  fill: green;
+}
+.shape-fill-yellow {
+  fill: rgb(255, 230, 0);
+}
+.shape-fill-green {
+  fill: #1a81e2;
+}
+/* form-register-header */
+.form-register-header {
+  text-align: center;
+  padding: 1.5rem 1rem;
+}
+.form-register-header h3 {
+  font-size: 2.6rem;
+  margin-bottom: 1.5rem;
+}
+.form-register-header span {
+  font-size: 1.3rem;
+}
+.inpute {
+  margin-top: 2rem;
+  padding: 1rem 3rem;
+  display: grid;
+  max-width: 85%;
+  margin: 0 auto;
+}
+.mt {
+  margin-top: 0.5rem;
+}
+::placeholder {
+  font-weight: 300;
+  font-size: 1.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inpute label {
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding-bottom: 0.7rem;
+}
+.inpute input {
+  max-width: 95%;
+  border: 1px solid gray;
+  border-radius: 1rem;
+  padding: 1rem 1rem;
+}
+.inpute input:focus {
+  outline: none;
+  box-shadow: 1px 1px 10px 1px #d0baf1;
+  border: 1px solid #b098d5;
+}
+.mainLoginInput {
+  height: 20px;
+  padding: 0px;
+  font-size: 20px;
+  margin: 5px 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.mainLoginInput::-webkit-input-placeholder {
+  font-family: FontAwesome;
+  font-weight: normal;
+  overflow: visible;
+  vertical-align: top;
+  display: inline-block !important;
+  padding-left: 5px;
+  padding-top: 2px;
+
+  color: var(--sub-preview-content-p);
+}
+.mainLoginInput::-moz-placeholder {
+  font-family: FontAwesome;
+  font-weight: normal;
+  overflow: visible;
+  vertical-align: top;
+  display: inline-block !important;
+  padding-left: 5px;
+  padding-top: 2px;
+  color: var(--sub-preview-content-p);
+}
+.mainLoginInput:-ms-input-placeholder {
+  font-family: FontAwesome;
+  font-weight: normal;
+  overflow: visible;
+  vertical-align: top;
+  display: inline-block !important;
+  padding-left: 5px;
+  padding-top: 2px;
+  color: var(--sub-preview-content-p);
+}
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 1rem;
+  margin-top: 1rem;
+}
+.checkbox-container input {
+  margin-right: 1rem;
+}
+input[type="checkbox"] {
+  transform: scale(1.4);
+  border: 1px solid var(--sub-preview-content-p);
+}
+.checkbox-container label {
+  font-size: 1.4rem;
+}
+label a {
+  text-decoration: none;
+  color: var(--purpol);
+}
+span,
+span a {
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+.btn-container {
+  height: max-content;
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.btn-account {
+  padding: 1.5rem 2.2rem;
+  background-color: var(--purpol);
+  color: #fff;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .form-register {
+    width: 42rem;
+  }
+}
