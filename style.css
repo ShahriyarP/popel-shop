@@ -420,6 +420,7 @@ ul li ul.dropdown::before {
 }
 .banner-text {
   user-select: none;
+  margin-bottom: 2rem;
 }
 .banner-text h4 {
   font-weight: 700;
