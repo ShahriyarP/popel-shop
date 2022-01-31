@@ -12,6 +12,7 @@
 html {
   font-size: 62.5%;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 body {
   margin: 0;
@@ -153,7 +154,6 @@ li {
 }
 .nav-bottom-list li {
   font-size: 1.5rem;
-
   cursor: pointer;
   color: var(--header-text-color);
 }
@@ -165,7 +165,6 @@ li {
   justify-content: stretch;
   align-items: center;
 }
-
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .logo-text {
     font-size: 1.5rem;
@@ -178,7 +177,6 @@ li {
     align-items: center;
   }
 }
-
 @media screen and (min-width: 501px) and (max-width: 1000px) {
   .logo-text {
     font-size: 2rem;
@@ -189,7 +187,6 @@ li {
   .fab-logo {
     white-space: nowrap;
   }
-
   .nav-bottom:nth-of-type(3) {
     justify-content: space-between;
     align-items: center;
@@ -325,7 +322,7 @@ ul li ul.dropdown::before {
   width: 4.5rem;
   height: 4rem;
 }
-.dropdown-parent :hover {
+.dropdown-parent:hover {
   color: #05172a;
 }
 .dropdown-child {

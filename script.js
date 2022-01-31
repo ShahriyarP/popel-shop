@@ -1,8 +1,8 @@
 /* NavBar */
 const mavMenu = document.getElementById('mav-menu');
 const sideNam = document.getElementById('sidenav');
+const navB = document.getElementById("nav-bottom-list");
 mavMenu.addEventListener('click', () => {
-  const navB = document.getElementById("nav-bottom-list");
   if (navB.style.display === "block") {
     navB.style.display = "none";
   } else {
@@ -26,9 +26,7 @@ monthlyBtn.addEventListener('click', () => {
 /*  */
 const wrapper = document.querySelector('.wrapper');
 const indicators = [...document.querySelectorAll('.indicators button')];
-
 let currentTestimonial = 0; // Default 0
-
 indicators.forEach((item, i) => {
   item.addEventListener('click', () => {
     indicators[currentTestimonial].classList.remove('active');

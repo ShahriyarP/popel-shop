@@ -245,3 +245,10 @@ form {
     font-size: 2.2rem;
   }
 }
+
+ul li a {
+  color: var(--sub-preview-content-p) !important;
+}
+ul li a:hover {
+  color: black !important;
+}
