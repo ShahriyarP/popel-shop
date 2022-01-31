@@ -197,6 +197,8 @@ li {
 }
 .nav-menu {
   opacity: 0.8;
+  width: 3rem;
+  height: 3rem;
 }
 .nav-menu:hover {
   transform: scale(1.1);
@@ -1450,4 +1452,10 @@ button.active {
   .footer-bottom-item span {
     font-size: 1.3rem;
   }
+}
+ul li a {
+  color: var(--header-text-color);
+}
+ul li a:hover {
+  color: white;
 }
