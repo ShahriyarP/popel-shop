@@ -1459,3 +1459,9 @@ ul li a {
 ul li a:hover {
   color: white;
 }
+.badge-purchase a {
+  color: black;
+}
+.badge-purchase a:hover {
+  color: gray;
+}
