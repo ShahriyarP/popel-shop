@@ -1,3 +1,3 @@
 # popel-shop
 
-My test shop whit Html and Css
+simple shop whit Html and Css
